@@ -50,8 +50,8 @@ def main() :
         for i in range(n):    
             forward(r)
             left(90+180/n)
-            triangle(l, alfa)
-            #kallantyu(r, alfa)
+            #triangle(l, alfa)
+            kallantyu(r, alfa)
             right(90+180/n)
             backward(r)
             right(360/n)
